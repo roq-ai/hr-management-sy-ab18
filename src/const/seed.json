@@ -1,0 +1,2622 @@
+[
+  {
+    "system_administrator": [
+      {
+        "id": "e253a257-3beb-4872-a561-4e9842a0e6cd",
+        "hire_date": "2023-09-26T16:28:10.439Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Full access",
+        "created_at": "2023-09-26T06:59:33.860Z",
+        "updated_at": "2023-09-26T06:41:04.659Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9aa7fc0f-3add-49b5-963c-9b4dca2b5679",
+        "hire_date": "2023-09-26T03:57:15.108Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Limited access",
+        "created_at": "2023-09-26T05:11:15.868Z",
+        "updated_at": "2023-09-25T21:53:26.584Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26c2c023-a2c3-4761-b203-cdb62484ac62",
+        "hire_date": "2023-09-25T18:08:52.641Z",
+        "department": "Finance",
+        "position": "Database Administrator",
+        "access_level": "Read-only access",
+        "created_at": "2023-09-26T10:41:08.002Z",
+        "updated_at": "2023-09-26T08:06:54.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7898fee1-1ee4-407f-b6ec-52f5001f782b",
+        "hire_date": "2023-09-26T08:13:47.499Z",
+        "department": "HR",
+        "position": "Security Administrator",
+        "access_level": "Admin access",
+        "created_at": "2023-09-26T04:32:18.910Z",
+        "updated_at": "2023-09-26T15:48:50.355Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce20b6a5-7b21-40f5-9394-582974a1819f",
+        "hire_date": "2023-09-25T18:49:48.250Z",
+        "department": "Marketing",
+        "position": "IT Manager",
+        "access_level": "Superuser access",
+        "created_at": "2023-09-26T06:19:20.240Z",
+        "updated_at": "2023-09-25T17:00:49.429Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "1b11fed3-edf1-4cf8-b346-5e99bc7f5b36",
+        "salary": 90146,
+        "bonus": 48050,
+        "deductions": 38725,
+        "net_pay": 53858,
+        "pay_date": "2023-09-26T10:17:23.906Z",
+        "created_at": "2023-09-26T13:28:39.591Z",
+        "updated_at": "2023-09-26T16:00:16.529Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8667084-1de2-4943-9914-baf2d8442f6d",
+        "salary": 58490,
+        "bonus": 50763,
+        "deductions": 20182,
+        "net_pay": 60970,
+        "pay_date": "2023-09-26T07:50:38.684Z",
+        "created_at": "2023-09-26T06:47:53.883Z",
+        "updated_at": "2023-09-26T12:23:54.467Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26de4151-8d3e-4a5f-a170-a46ac1753e9d",
+        "salary": 14648,
+        "bonus": 3445,
+        "deductions": 80148,
+        "net_pay": 3652,
+        "pay_date": "2023-09-26T12:37:44.253Z",
+        "created_at": "2023-09-26T13:44:03.341Z",
+        "updated_at": "2023-09-26T04:02:41.484Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2af9337-2d1f-4a81-a5d2-ff228342cae7",
+        "salary": 66356,
+        "bonus": 33843,
+        "deductions": 95987,
+        "net_pay": 70731,
+        "pay_date": "2023-09-26T01:43:41.583Z",
+        "created_at": "2023-09-26T13:41:41.546Z",
+        "updated_at": "2023-09-26T09:41:48.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3acbb202-a72b-4c4b-bb0a-241f0b7150b6",
+        "salary": 44545,
+        "bonus": 54859,
+        "deductions": 26876,
+        "net_pay": 45910,
+        "pay_date": "2023-09-26T16:28:22.044Z",
+        "created_at": "2023-09-26T01:36:34.773Z",
+        "updated_at": "2023-09-26T08:41:22.310Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "2a3216fc-eaa7-43c3-ad8f-702e01aef5b1",
+        "hire_date": "2023-09-25T17:00:56.010Z",
+        "department": "HR",
+        "position": "HR Manager",
+        "supervisor": "John Smith",
+        "created_at": "2023-09-25T20:38:27.198Z",
+        "updated_at": "2023-09-26T09:12:25.715Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "131f87f4-d54d-46e0-8fc4-ebd994659b14",
+        "hire_date": "2023-09-26T09:41:26.311Z",
+        "department": "Operations",
+        "position": "Recruitment Manager",
+        "supervisor": "Jane Doe",
+        "created_at": "2023-09-26T02:43:26.025Z",
+        "updated_at": "2023-09-26T02:03:09.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b596973-fc61-4bfe-86d2-31bb8b07d112",
+        "hire_date": "2023-09-25T17:14:09.175Z",
+        "department": "Finance",
+        "position": "Training Manager",
+        "supervisor": "Michael Brown",
+        "created_at": "2023-09-26T03:06:01.431Z",
+        "updated_at": "2023-09-25T20:12:03.542Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d87cbe32-b651-40d5-8dd7-b390026bf4f3",
+        "hire_date": "2023-09-25T22:55:13.494Z",
+        "department": "IT",
+        "position": "Compensation Manager",
+        "supervisor": "Sarah Jones",
+        "created_at": "2023-09-26T00:08:18.948Z",
+        "updated_at": "2023-09-25T21:12:36.845Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81449492-8f1c-4eae-a70d-4a707d0d5ea8",
+        "hire_date": "2023-09-26T15:25:53.480Z",
+        "department": "Marketing",
+        "position": "Employee Relations Manager",
+        "supervisor": "David Wilson",
+        "created_at": "2023-09-25T22:14:22.594Z",
+        "updated_at": "2023-09-26T09:54:58.862Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "611665c3-5866-47da-acba-19023647295b",
+        "address": "123 Main St",
+        "phone_number": "555-1234",
+        "start_date": "2023-09-25T21:34:59.278Z",
+        "end_date": "2023-09-25T22:08:18.544Z",
+        "created_at": "2023-09-26T00:05:04.560Z",
+        "updated_at": "2023-09-26T06:29:56.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7394fe53-b94e-4f63-bf7a-c46e25ac196b",
+        "address": "456 Elm St",
+        "phone_number": "555-5678",
+        "start_date": "2023-09-26T06:04:51.474Z",
+        "end_date": "2023-09-25T19:47:07.260Z",
+        "created_at": "2023-09-25T18:09:21.889Z",
+        "updated_at": "2023-09-25T17:23:54.122Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bedd0b78-d3ea-4cde-945e-f6dd3c348889",
+        "address": "789 Oak St",
+        "phone_number": "555-9012",
+        "start_date": "2023-09-26T00:58:09.908Z",
+        "end_date": "2023-09-26T09:32:42.132Z",
+        "created_at": "2023-09-26T12:21:03.804Z",
+        "updated_at": "2023-09-26T01:37:30.654Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9748262d-0f0c-4ee2-b3d6-4bcb9f244958",
+        "address": "321 Maple Ave",
+        "phone_number": "555-3456",
+        "start_date": "2023-09-26T14:43:32.184Z",
+        "end_date": "2023-09-26T10:13:29.372Z",
+        "created_at": "2023-09-26T04:06:52.271Z",
+        "updated_at": "2023-09-26T06:41:10.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a57555e7-aab2-4346-bc46-0d0cd41d5e75",
+        "address": "654 Pine St",
+        "phone_number": "555-7890",
+        "start_date": "2023-09-26T15:35:06.412Z",
+        "end_date": "2023-09-26T12:53:24.820Z",
+        "created_at": "2023-09-26T08:01:18.472Z",
+        "updated_at": "2023-09-26T02:19:21.553Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d9c7279b-3760-4e1e-966e-e8e348cf43cf",
+        "email": "Monserrate66@roq.tech",
+        "firstName": "Katlynn",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e792bee9-8fca-48ec-9c1a-fc91a769c6cb",
+        "email": "Christophe_Legros@roq.tech",
+        "firstName": "Karelle",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "625ff535-96f5-447d-b54f-39b522acd207",
+        "email": "Mathias_Feil42@roq.tech",
+        "firstName": "Leslie",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95836447",
+        "tenantId": null
+      },
+      {
+        "reference": "2faacc86-2da5-4b92-a3bf-489f5589ad0f",
+        "email": "Kevin69@roq.tech",
+        "firstName": "Cordie",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50299021",
+        "tenantId": null
+      },
+      {
+        "reference": "2a83ab4d-4350-4463-a37b-a989ffb9ae7b",
+        "email": "Ambrose.Goodwin@roq.tech",
+        "firstName": "Ricky",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53855211",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "42878768-a829-4cc8-a41a-e2fb1fac2f28",
+        "hire_date": "2023-09-25T18:47:07.623Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Full access",
+        "created_at": "2023-09-25T20:48:07.119Z",
+        "updated_at": "2023-09-25T18:45:13.842Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3cbd046-de22-423e-afbf-b9608a1e2749",
+        "hire_date": "2023-09-26T13:36:43.102Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Limited access",
+        "created_at": "2023-09-25T20:52:28.585Z",
+        "updated_at": "2023-09-26T12:09:58.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83c0300a-58a6-48d7-906a-b102a3ce18a4",
+        "hire_date": "2023-09-25T23:07:42.592Z",
+        "department": "Finance",
+        "position": "Database Administrator",
+        "access_level": "Read-only access",
+        "created_at": "2023-09-25T17:01:54.408Z",
+        "updated_at": "2023-09-26T12:51:58.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5479d5ef-0635-4f02-b693-5922191fba84",
+        "hire_date": "2023-09-25T19:58:29.455Z",
+        "department": "HR",
+        "position": "Security Administrator",
+        "access_level": "Admin access",
+        "created_at": "2023-09-26T04:24:46.468Z",
+        "updated_at": "2023-09-25T21:47:33.613Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d70e9e81-bdc2-4ccf-8387-2b0fa2800a25",
+        "hire_date": "2023-09-26T11:12:51.580Z",
+        "department": "Marketing",
+        "position": "Cloud Administrator",
+        "access_level": "Superuser access",
+        "created_at": "2023-09-26T14:42:29.169Z",
+        "updated_at": "2023-09-25T22:26:47.363Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "891889cd-91dd-4115-874e-b11bf7fb974c",
+        "salary": 36470,
+        "bonus": 8754,
+        "deductions": 43249,
+        "net_pay": 3750,
+        "pay_date": "2023-09-25T18:05:48.555Z",
+        "created_at": "2023-09-25T17:22:35.951Z",
+        "updated_at": "2023-09-26T05:07:01.976Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "722602f2-353c-4ade-8d98-bf46f3024de8",
+        "salary": 85863,
+        "bonus": 99319,
+        "deductions": 48237,
+        "net_pay": 98143,
+        "pay_date": "2023-09-26T05:17:38.096Z",
+        "created_at": "2023-09-25T20:42:29.241Z",
+        "updated_at": "2023-09-26T11:26:29.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e2008bc-0903-4c2c-b3f9-08ba50b47380",
+        "salary": 85417,
+        "bonus": 83722,
+        "deductions": 36699,
+        "net_pay": 57755,
+        "pay_date": "2023-09-25T21:21:19.973Z",
+        "created_at": "2023-09-26T14:21:23.897Z",
+        "updated_at": "2023-09-26T11:48:48.916Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79fc634e-54b0-46f4-9587-4849bd8f6f98",
+        "salary": 8391,
+        "bonus": 19360,
+        "deductions": 85532,
+        "net_pay": 20902,
+        "pay_date": "2023-09-26T02:31:00.112Z",
+        "created_at": "2023-09-26T11:15:26.057Z",
+        "updated_at": "2023-09-25T21:13:28.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c89fa5e-8b58-40fa-9da2-295ad43ea7bf",
+        "salary": 50922,
+        "bonus": 39258,
+        "deductions": 12155,
+        "net_pay": 91741,
+        "pay_date": "2023-09-25T22:04:12.281Z",
+        "created_at": "2023-09-26T12:23:52.809Z",
+        "updated_at": "2023-09-26T07:44:54.821Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "0ea418ac-6c00-4e46-a031-919e71ade571",
+        "hire_date": "2023-09-25T16:57:00.934Z",
+        "department": "HR",
+        "position": "HR Manager",
+        "supervisor": "John Smith",
+        "created_at": "2023-09-26T14:26:43.833Z",
+        "updated_at": "2023-09-26T09:02:34.686Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9a471fe-663d-4e57-9af6-b82b2bf4d242",
+        "hire_date": "2023-09-25T23:13:36.602Z",
+        "department": "Operations",
+        "position": "Operations Manager",
+        "supervisor": "Jane Doe",
+        "created_at": "2023-09-26T12:09:46.303Z",
+        "updated_at": "2023-09-26T16:04:27.386Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81661f30-30ce-45f4-bf38-51c33b10c7f5",
+        "hire_date": "2023-09-26T15:31:40.754Z",
+        "department": "Finance",
+        "position": "Finance Manager",
+        "supervisor": "Michael Brown",
+        "created_at": "2023-09-25T19:42:11.647Z",
+        "updated_at": "2023-09-26T01:40:43.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e055f1b-34e4-4755-8b5e-ad252089f8ab",
+        "hire_date": "2023-09-25T18:18:14.932Z",
+        "department": "Marketing",
+        "position": "Marketing Manager",
+        "supervisor": "Sarah Jones",
+        "created_at": "2023-09-26T09:41:13.860Z",
+        "updated_at": "2023-09-25T20:27:51.821Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bb63a0b-39bc-4c2c-bb78-a1509c73e15d",
+        "hire_date": "2023-09-25T20:32:12.854Z",
+        "department": "IT",
+        "position": "IT Manager",
+        "supervisor": "David Wilson",
+        "created_at": "2023-09-26T14:41:18.724Z",
+        "updated_at": "2023-09-26T08:04:43.086Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "be6b41f8-a723-42ce-ae16-37506983036f",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-09-25T22:35:48.813Z",
+        "end_date": "2023-09-25T18:24:50.082Z",
+        "created_at": "2023-09-26T16:49:58.385Z",
+        "updated_at": "2023-09-25T23:43:50.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d676684c-03b3-4e3a-9e05-8b3a60d5ca1f",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-09-26T11:24:12.622Z",
+        "end_date": "2023-09-25T18:31:56.983Z",
+        "created_at": "2023-09-25T18:48:00.151Z",
+        "updated_at": "2023-09-25T16:57:57.379Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aad2b9d-6fcf-4cb9-8907-917b2437f49a",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "start_date": "2023-09-25T18:42:20.178Z",
+        "end_date": "2023-09-25T22:54:19.913Z",
+        "created_at": "2023-09-26T10:59:24.033Z",
+        "updated_at": "2023-09-25T22:22:23.542Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "377b52a8-8458-4c24-aae3-616a69bf5a5d",
+        "address": "321 Maple St",
+        "phone_number": "888-999-0000",
+        "start_date": "2023-09-25T21:30:57.509Z",
+        "end_date": "2023-09-26T00:24:48.769Z",
+        "created_at": "2023-09-26T15:02:21.378Z",
+        "updated_at": "2023-09-26T02:04:42.695Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e862a5d1-f7e0-4d4a-8f0d-65eaa2d2e55b",
+        "address": "654 Pine St",
+        "phone_number": "111-222-3333",
+        "start_date": "2023-09-26T04:28:30.191Z",
+        "end_date": "2023-09-25T23:47:12.100Z",
+        "created_at": "2023-09-26T09:35:38.038Z",
+        "updated_at": "2023-09-26T10:45:59.312Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9532a066-5ab0-4dae-893d-7c10ac479f36",
+        "email": "Lavon_Blick18@roq.tech",
+        "firstName": "Mackenzie",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69346159",
+        "tenantId": null
+      },
+      {
+        "reference": "3264aa31-3d53-41c0-bab0-f326831f930f",
+        "email": "Wellington35@roq.tech",
+        "firstName": "Danyka",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64266597",
+        "tenantId": null
+      },
+      {
+        "reference": "4ee84bbf-e508-4cae-a3c6-50b861418a70",
+        "email": "Dexter.Abernathy@roq.tech",
+        "firstName": "Astrid",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/692.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37b2f5d5-6937-4261-a84c-94054201ae1e",
+        "email": "Dayton82@roq.tech",
+        "firstName": "Devin",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3375ef09-2750-487a-9571-b9f9c4ebba9c",
+        "email": "Lois_Hoppe-Purdy88@roq.tech",
+        "firstName": "Alvina",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "c4a99035-fb07-445a-bca1-02ac6da3c72b",
+        "hire_date": "2023-09-26T10:36:56.987Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Admin",
+        "created_at": "2023-09-26T10:31:14.251Z",
+        "updated_at": "2023-09-26T07:57:35.156Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "660fd8ea-992b-4553-bbc5-661f2d67f6f4",
+        "hire_date": "2023-09-26T02:50:30.012Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Super Admin",
+        "created_at": "2023-09-25T21:08:09.497Z",
+        "updated_at": "2023-09-25T19:38:36.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ed63deb-a4cf-4373-8c0e-e9dddcb3a88c",
+        "hire_date": "2023-09-26T10:55:30.835Z",
+        "department": "Finance",
+        "position": "Database Administrator",
+        "access_level": "Root Admin",
+        "created_at": "2023-09-25T18:39:19.207Z",
+        "updated_at": "2023-09-26T11:39:13.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93e00371-9159-4317-a881-6a92b2e59a35",
+        "hire_date": "2023-09-26T15:02:07.857Z",
+        "department": "Human Resources",
+        "position": "Security Administrator",
+        "access_level": "System Admin",
+        "created_at": "2023-09-25T17:51:26.197Z",
+        "updated_at": "2023-09-25T20:48:59.517Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1727ffa0-d5e7-41ec-a481-997b54edc4f4",
+        "hire_date": "2023-09-26T14:56:24.623Z",
+        "department": "Marketing",
+        "position": "Infrastructure Administrator",
+        "access_level": "Network Admin",
+        "created_at": "2023-09-26T11:33:54.336Z",
+        "updated_at": "2023-09-25T19:33:23.053Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "d31e1877-5f73-4a60-a616-2ac68ce33349",
+        "salary": 10173,
+        "bonus": 94588,
+        "deductions": 26057,
+        "net_pay": 59799,
+        "pay_date": "2023-09-26T11:27:16.744Z",
+        "created_at": "2023-09-26T06:59:23.779Z",
+        "updated_at": "2023-09-25T20:20:10.209Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef8bdb91-2aea-4c2d-9d8f-fb120e946b3b",
+        "salary": 49306,
+        "bonus": 24588,
+        "deductions": 52266,
+        "net_pay": 82433,
+        "pay_date": "2023-09-25T21:43:29.096Z",
+        "created_at": "2023-09-25T20:00:18.180Z",
+        "updated_at": "2023-09-26T10:33:23.901Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ced9165d-0c1f-4b07-b649-c8f6ae523e7f",
+        "salary": 1598,
+        "bonus": 64451,
+        "deductions": 49096,
+        "net_pay": 18395,
+        "pay_date": "2023-09-26T13:26:12.685Z",
+        "created_at": "2023-09-26T03:59:23.071Z",
+        "updated_at": "2023-09-26T07:00:39.168Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0db6c61-9693-40cc-922e-e178a036a808",
+        "salary": 4263,
+        "bonus": 47816,
+        "deductions": 44623,
+        "net_pay": 31092,
+        "pay_date": "2023-09-26T16:27:15.844Z",
+        "created_at": "2023-09-25T22:27:05.521Z",
+        "updated_at": "2023-09-25T17:31:17.861Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b844b013-b175-4f2e-adb1-0fee55add047",
+        "salary": 96106,
+        "bonus": 73830,
+        "deductions": 82617,
+        "net_pay": 94721,
+        "pay_date": "2023-09-26T12:16:36.615Z",
+        "created_at": "2023-09-26T08:36:52.183Z",
+        "updated_at": "2023-09-26T10:25:47.174Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "f91a46ed-21ad-4308-a40c-29a3a3832de1",
+        "hire_date": "2023-09-26T01:55:33.800Z",
+        "department": "Human Resources",
+        "position": "HR Manager",
+        "supervisor": "John Smith",
+        "created_at": "2023-09-26T06:06:27.777Z",
+        "updated_at": "2023-09-25T20:48:00.800Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56f69948-370b-4a6f-b2c6-f779fa8fb3a6",
+        "hire_date": "2023-09-26T04:14:21.019Z",
+        "department": "Operations",
+        "position": "HR Director",
+        "supervisor": "Jane Doe",
+        "created_at": "2023-09-26T12:45:33.747Z",
+        "updated_at": "2023-09-26T02:47:16.174Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8d52ce5-f027-445a-9ead-4066fb782d77",
+        "hire_date": "2023-09-25T17:25:01.000Z",
+        "department": "Finance",
+        "position": "HR Coordinator",
+        "supervisor": "Michael Brown",
+        "created_at": "2023-09-26T13:28:43.417Z",
+        "updated_at": "2023-09-26T11:22:08.475Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94a9e19b-e98c-47b1-8951-f55bdd39402b",
+        "hire_date": "2023-09-26T16:19:16.609Z",
+        "department": "Marketing",
+        "position": "HR Specialist",
+        "supervisor": "Sarah Jones",
+        "created_at": "2023-09-26T06:11:52.319Z",
+        "updated_at": "2023-09-26T10:31:16.952Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a73f3f71-3c08-41da-ad8c-ff1bc0af87b4",
+        "hire_date": "2023-09-26T08:55:52.393Z",
+        "department": "IT",
+        "position": "HR Generalist",
+        "supervisor": "Robert Wilson",
+        "created_at": "2023-09-26T11:22:26.999Z",
+        "updated_at": "2023-09-25T19:05:53.099Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "647b5012-c258-4809-abf5-335f9a3be28c",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-09-25T17:12:37.240Z",
+        "end_date": "2023-09-25T23:41:39.112Z",
+        "created_at": "2023-09-26T09:17:14.258Z",
+        "updated_at": "2023-09-26T05:34:41.260Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3dcc1b3c-9103-40cc-bea9-e20ae411b72e",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-09-26T06:50:07.515Z",
+        "end_date": "2023-09-26T16:52:53.315Z",
+        "created_at": "2023-09-25T21:44:12.178Z",
+        "updated_at": "2023-09-26T08:41:43.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cae56988-9159-4f37-a3ff-d2a1c47e99e5",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "start_date": "2023-09-26T14:41:27.508Z",
+        "end_date": "2023-09-26T04:56:04.002Z",
+        "created_at": "2023-09-26T12:20:13.952Z",
+        "updated_at": "2023-09-25T18:13:39.986Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99ac6fae-34f6-4efd-b689-3147f3fc22f7",
+        "address": "321 Maple St",
+        "phone_number": "888-999-0000",
+        "start_date": "2023-09-26T11:22:31.020Z",
+        "end_date": "2023-09-25T23:25:50.368Z",
+        "created_at": "2023-09-26T07:42:09.023Z",
+        "updated_at": "2023-09-26T07:22:09.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1a6574a-7200-4150-b451-1abefa3be236",
+        "address": "654 Pine St",
+        "phone_number": "444-333-2222",
+        "start_date": "2023-09-26T12:41:25.460Z",
+        "end_date": "2023-09-26T10:47:59.053Z",
+        "created_at": "2023-09-25T19:13:25.044Z",
+        "updated_at": "2023-09-26T09:16:26.210Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3533b7c1-6b5a-4f3a-a153-2ef9ee78955a",
+        "email": "Ben.Reichert@roq.tech",
+        "firstName": "Maye",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46703600",
+        "tenantId": null
+      },
+      {
+        "reference": "84e235bc-882c-4a37-9f8a-700d97a92e4a",
+        "email": "Kasey63@roq.tech",
+        "firstName": "Dasia",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23316089",
+        "tenantId": null
+      },
+      {
+        "reference": "36ffac75-df61-4e8c-87d7-904bb2467947",
+        "email": "Lue.Koepp29@roq.tech",
+        "firstName": "Janie",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52907752",
+        "tenantId": null
+      },
+      {
+        "reference": "0ea30e85-b868-45b8-9c16-44c92b20da05",
+        "email": "Shayne_DAmore63@roq.tech",
+        "firstName": "Rebeka",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67210610",
+        "tenantId": null
+      },
+      {
+        "reference": "80dc25d1-8471-4ad0-92f0-91cfb5b12abb",
+        "email": "Ethyl_Bahringer46@roq.tech",
+        "firstName": "Gerson",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/28.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "ad3d92c9-c185-4eb9-86d6-b495541e8573",
+        "hire_date": "2023-09-26T00:17:25.067Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Admin",
+        "created_at": "2023-09-26T13:56:13.346Z",
+        "updated_at": "2023-09-26T05:14:38.598Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2acbb0b8-aa41-4373-ad14-3dff9aec26eb",
+        "hire_date": "2023-09-26T09:42:35.295Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Super Admin",
+        "created_at": "2023-09-25T23:24:06.689Z",
+        "updated_at": "2023-09-26T14:44:06.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3251e01f-a458-41c8-9bf9-5058addf602b",
+        "hire_date": "2023-09-26T10:42:19.469Z",
+        "department": "Finance",
+        "position": "Database Administrator",
+        "access_level": "Root Admin",
+        "created_at": "2023-09-26T14:48:52.506Z",
+        "updated_at": "2023-09-26T02:54:35.359Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65b3d353-3bbe-41f4-abf1-dadb6d38cb83",
+        "hire_date": "2023-09-25T23:43:55.429Z",
+        "department": "Human Resources",
+        "position": "Security Administrator",
+        "access_level": "System Admin",
+        "created_at": "2023-09-26T04:42:28.692Z",
+        "updated_at": "2023-09-26T04:05:11.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb3240cc-895a-4de6-86c2-137201a66831",
+        "hire_date": "2023-09-25T18:53:50.897Z",
+        "department": "Marketing",
+        "position": "Cloud Administrator",
+        "access_level": "Network Admin",
+        "created_at": "2023-09-26T06:15:27.111Z",
+        "updated_at": "2023-09-26T01:12:55.655Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "5c972f3b-6070-4779-adda-7c70cd4b8753",
+        "salary": 90984,
+        "bonus": 83932,
+        "deductions": 32548,
+        "net_pay": 92075,
+        "pay_date": "2023-09-26T05:05:21.490Z",
+        "created_at": "2023-09-25T18:14:03.026Z",
+        "updated_at": "2023-09-25T19:42:22.397Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a74016e6-1dac-4a51-88d5-c55f6db7d7d2",
+        "salary": 21067,
+        "bonus": 6680,
+        "deductions": 95747,
+        "net_pay": 46198,
+        "pay_date": "2023-09-26T08:46:01.729Z",
+        "created_at": "2023-09-26T05:49:54.309Z",
+        "updated_at": "2023-09-26T09:31:40.064Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9285ecd4-0623-4efe-a2de-aef760803acf",
+        "salary": 9315,
+        "bonus": 3480,
+        "deductions": 93700,
+        "net_pay": 76560,
+        "pay_date": "2023-09-26T05:53:37.446Z",
+        "created_at": "2023-09-26T00:32:38.424Z",
+        "updated_at": "2023-09-26T02:01:12.901Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c61d670a-3f28-4657-96f1-6df58271455e",
+        "salary": 19487,
+        "bonus": 28673,
+        "deductions": 21945,
+        "net_pay": 9095,
+        "pay_date": "2023-09-26T08:15:32.402Z",
+        "created_at": "2023-09-26T01:49:39.110Z",
+        "updated_at": "2023-09-26T00:52:44.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "935941de-5fbc-4cfc-983d-7b959e0fc493",
+        "salary": 97192,
+        "bonus": 90138,
+        "deductions": 38482,
+        "net_pay": 68978,
+        "pay_date": "2023-09-26T05:39:01.924Z",
+        "created_at": "2023-09-26T01:36:32.855Z",
+        "updated_at": "2023-09-26T08:54:55.606Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "59c9890a-1d28-4d23-a956-c541124fbf59",
+        "hire_date": "2023-09-26T05:43:12.243Z",
+        "department": "Human Resources",
+        "position": "HR Manager",
+        "supervisor": "John Doe",
+        "created_at": "2023-09-26T06:50:37.913Z",
+        "updated_at": "2023-09-26T07:53:13.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a5fd76e-4a48-4df6-a0e0-3483f7c829b9",
+        "hire_date": "2023-09-26T01:59:27.963Z",
+        "department": "Operations",
+        "position": "HR Director",
+        "supervisor": "Jane Smith",
+        "created_at": "2023-09-26T09:34:27.726Z",
+        "updated_at": "2023-09-25T21:09:17.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04e35200-1a6a-4698-8bd5-d8fac546bc6a",
+        "hire_date": "2023-09-25T22:23:16.715Z",
+        "department": "Finance",
+        "position": "HR Business Partner",
+        "supervisor": "Michael Brown",
+        "created_at": "2023-09-25T17:17:35.161Z",
+        "updated_at": "2023-09-26T14:47:45.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8df73cac-03bf-44dd-874f-68e6308d9dbf",
+        "hire_date": "2023-09-25T23:56:59.543Z",
+        "department": "IT",
+        "position": "HR Generalist",
+        "supervisor": "Sarah Jones",
+        "created_at": "2023-09-25T23:57:21.878Z",
+        "updated_at": "2023-09-26T11:13:45.973Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e60512f2-4e2f-4415-b859-680b0a7a49c4",
+        "hire_date": "2023-09-26T14:08:57.477Z",
+        "department": "Marketing",
+        "position": "HR Coordinator",
+        "supervisor": "David Wilson",
+        "created_at": "2023-09-25T19:56:51.026Z",
+        "updated_at": "2023-09-26T02:44:57.547Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "80e5a880-ecb1-49a3-aadd-376ad2bc5196",
+        "address": "123 Main St",
+        "phone_number": "555-1234",
+        "start_date": "2023-09-26T14:52:47.123Z",
+        "end_date": "2023-09-26T04:38:59.460Z",
+        "created_at": "2023-09-26T03:49:35.891Z",
+        "updated_at": "2023-09-25T19:51:28.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f24ba8e-f1b3-417e-8cbd-9350477e06f9",
+        "address": "456 Elm St",
+        "phone_number": "555-5678",
+        "start_date": "2023-09-26T04:01:55.316Z",
+        "end_date": "2023-09-25T20:47:59.857Z",
+        "created_at": "2023-09-26T09:52:02.152Z",
+        "updated_at": "2023-09-25T21:39:34.741Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7539f2c5-f388-41b5-be07-815c8834f9bd",
+        "address": "789 Oak St",
+        "phone_number": "555-9012",
+        "start_date": "2023-09-26T11:43:31.049Z",
+        "end_date": "2023-09-25T22:59:35.134Z",
+        "created_at": "2023-09-26T09:18:06.900Z",
+        "updated_at": "2023-09-26T01:03:59.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58b94aac-9ea8-40e1-af1e-7605dd443766",
+        "address": "321 Pine St",
+        "phone_number": "555-3456",
+        "start_date": "2023-09-26T11:49:45.930Z",
+        "end_date": "2023-09-25T17:29:55.932Z",
+        "created_at": "2023-09-26T02:13:30.462Z",
+        "updated_at": "2023-09-25T19:41:31.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1383ae51-1723-4c64-9721-06b16e1543e9",
+        "address": "654 Maple St",
+        "phone_number": "555-7890",
+        "start_date": "2023-09-25T17:56:14.596Z",
+        "end_date": "2023-09-26T06:31:22.672Z",
+        "created_at": "2023-09-25T22:03:45.121Z",
+        "updated_at": "2023-09-26T11:19:18.542Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dd30abe1-cf3d-4339-bad9-1a731b5e7793",
+        "email": "Griffin17@roq.tech",
+        "firstName": "Price",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbebe0bd-0e64-4929-8f17-d7a68a04c2cf",
+        "email": "Dayton.Kertzmann@roq.tech",
+        "firstName": "Ottilie",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25716438",
+        "tenantId": null
+      },
+      {
+        "reference": "b8b3844e-f814-4d13-8927-f9f695a61a61",
+        "email": "Carter_Cremin@roq.tech",
+        "firstName": "Virginia",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/793.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6387ef34-0ad2-484f-9d4a-62ff5b3457dc",
+        "email": "Ewald68@roq.tech",
+        "firstName": "Hyman",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6490505",
+        "tenantId": null
+      },
+      {
+        "reference": "0662cfc1-cac4-4c1c-9956-f2a9bb6abda8",
+        "email": "Rodrick82@roq.tech",
+        "firstName": "Cyril",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18001599",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "08fec9f6-a58c-4ab7-8c83-6a090cb9ed1c",
+        "hire_date": "2023-09-26T06:08:22.410Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Admin",
+        "created_at": "2023-09-25T20:51:09.661Z",
+        "updated_at": "2023-09-26T01:16:08.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63a36ff1-4a47-4f56-8cee-4f6192db7039",
+        "hire_date": "2023-09-26T00:48:15.773Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Super Admin",
+        "created_at": "2023-09-25T22:29:47.568Z",
+        "updated_at": "2023-09-25T18:52:25.440Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6376772c-c854-4e8e-a2b3-471fcbc37006",
+        "hire_date": "2023-09-26T10:33:24.455Z",
+        "department": "Security",
+        "position": "Database Administrator",
+        "access_level": "Root Admin",
+        "created_at": "2023-09-26T00:00:44.875Z",
+        "updated_at": "2023-09-26T02:00:33.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ce99562-7254-4d63-bc80-90d2fa51d653",
+        "hire_date": "2023-09-25T21:54:38.098Z",
+        "department": "Infrastructure",
+        "position": "Security Administrator",
+        "access_level": "System Admin",
+        "created_at": "2023-09-26T15:47:06.799Z",
+        "updated_at": "2023-09-26T10:18:28.603Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "658d53a4-02e6-4173-94ab-ead8b284747e",
+        "hire_date": "2023-09-25T17:33:10.769Z",
+        "department": "Network",
+        "position": "IT Administrator",
+        "access_level": "Network Admin",
+        "created_at": "2023-09-26T05:51:31.498Z",
+        "updated_at": "2023-09-25T22:12:18.297Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "d94fb5cf-6037-4cfa-b586-f43d6ef22265",
+        "salary": 16420,
+        "bonus": 2717,
+        "deductions": 49981,
+        "net_pay": 3869,
+        "pay_date": "2023-09-25T21:40:57.311Z",
+        "created_at": "2023-09-26T13:08:09.051Z",
+        "updated_at": "2023-09-26T14:33:52.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a5cf85c-b522-4957-94bb-511c97b92958",
+        "salary": 28115,
+        "bonus": 67581,
+        "deductions": 12891,
+        "net_pay": 80471,
+        "pay_date": "2023-09-26T03:02:25.198Z",
+        "created_at": "2023-09-26T03:39:39.346Z",
+        "updated_at": "2023-09-26T04:14:42.462Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83ad9b7e-aa34-4792-a1d9-11c1f8155caf",
+        "salary": 18509,
+        "bonus": 17169,
+        "deductions": 52989,
+        "net_pay": 55624,
+        "pay_date": "2023-09-26T00:00:37.816Z",
+        "created_at": "2023-09-26T09:38:12.020Z",
+        "updated_at": "2023-09-25T22:31:25.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94eff4ba-318a-45e1-8528-e00c44de7dcc",
+        "salary": 21572,
+        "bonus": 31084,
+        "deductions": 76341,
+        "net_pay": 21290,
+        "pay_date": "2023-09-26T04:25:41.068Z",
+        "created_at": "2023-09-26T02:09:38.988Z",
+        "updated_at": "2023-09-26T13:25:17.998Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "044bb679-78b4-4bb1-8a64-a4a3df95a458",
+        "salary": 44241,
+        "bonus": 93417,
+        "deductions": 44376,
+        "net_pay": 38819,
+        "pay_date": "2023-09-25T21:21:10.974Z",
+        "created_at": "2023-09-26T03:37:21.135Z",
+        "updated_at": "2023-09-26T01:44:31.883Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "5b8ca671-ef0b-4fe3-810a-97e61face9e3",
+        "hire_date": "2023-09-26T04:20:29.624Z",
+        "department": "Human Resources",
+        "position": "HR Manager",
+        "supervisor": "HR Director",
+        "created_at": "2023-09-25T17:13:12.633Z",
+        "updated_at": "2023-09-26T16:09:54.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f479305a-a140-421f-9171-92a1fd062419",
+        "hire_date": "2023-09-26T10:53:09.146Z",
+        "department": "Talent Acquisition",
+        "position": "Talent Acquisition Manager",
+        "supervisor": "VP of Human Resources",
+        "created_at": "2023-09-26T05:07:08.740Z",
+        "updated_at": "2023-09-26T09:42:28.104Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "385d2813-0bb0-4ca3-aa3a-7fe332513fb0",
+        "hire_date": "2023-09-25T22:06:56.643Z",
+        "department": "Employee Relations",
+        "position": "Employee Relations Manager",
+        "supervisor": "Chief People Officer",
+        "created_at": "2023-09-26T16:23:47.437Z",
+        "updated_at": "2023-09-26T15:32:16.466Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09c991a0-ad6f-4b06-8a3e-ae87905b4c7b",
+        "hire_date": "2023-09-25T20:43:59.476Z",
+        "department": "Compensation and Benefits",
+        "position": "Compensation and Benefits Manager",
+        "supervisor": "HR Business Partner",
+        "created_at": "2023-09-25T18:34:42.840Z",
+        "updated_at": "2023-09-26T13:50:02.811Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f59f5bcd-c4af-4d6c-909f-d0077878ac32",
+        "hire_date": "2023-09-26T15:30:45.895Z",
+        "department": "Training and Development",
+        "position": "Training and Development Manager",
+        "supervisor": "HR Consultant",
+        "created_at": "2023-09-25T18:09:55.360Z",
+        "updated_at": "2023-09-26T13:14:43.007Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "ad7fe4d6-37eb-4418-8439-ff74598c636c",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-09-25T20:15:27.623Z",
+        "end_date": "2023-09-25T17:39:24.531Z",
+        "created_at": "2023-09-26T06:04:04.324Z",
+        "updated_at": "2023-09-26T00:52:03.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4efbfa68-f1be-4b5d-8fc8-3d5351ddeea2",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-09-25T23:38:38.275Z",
+        "end_date": "2023-09-26T15:08:34.034Z",
+        "created_at": "2023-09-26T10:18:34.818Z",
+        "updated_at": "2023-09-26T04:15:05.493Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9afb7c6-7012-4922-9839-f66336b6e1d8",
+        "address": "789 Oak St",
+        "phone_number": "456-789-1230",
+        "start_date": "2023-09-26T03:18:17.591Z",
+        "end_date": "2023-09-25T21:49:07.905Z",
+        "created_at": "2023-09-26T09:50:55.709Z",
+        "updated_at": "2023-09-25T20:49:56.858Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4bc978a-1ca2-404c-87f3-68f634a3cea4",
+        "address": "321 Pine St",
+        "phone_number": "789-123-4560",
+        "start_date": "2023-09-26T13:51:06.345Z",
+        "end_date": "2023-09-26T06:57:09.799Z",
+        "created_at": "2023-09-26T14:49:24.467Z",
+        "updated_at": "2023-09-25T17:36:05.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2a14935-26ca-4134-b8cf-0749b2330e5e",
+        "address": "654 Maple St",
+        "phone_number": "321-654-9870",
+        "start_date": "2023-09-26T07:01:08.627Z",
+        "end_date": "2023-09-25T17:00:43.842Z",
+        "created_at": "2023-09-26T11:51:42.124Z",
+        "updated_at": "2023-09-25T22:25:10.178Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d1a42a47-b5bd-4add-b329-780ab0949ae1",
+        "email": "Golden_Lind@roq.tech",
+        "firstName": "Mya",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/865.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "510d9183-c796-45bf-b59e-3668b1b661ad",
+        "email": "Graciela_Heaney@roq.tech",
+        "firstName": "Christian",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22207564",
+        "tenantId": null
+      },
+      {
+        "reference": "248c7dd7-722d-4fa8-a61f-28bb86cc898d",
+        "email": "Cordelia_Nitzsche@roq.tech",
+        "firstName": "Alta",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90810237",
+        "tenantId": null
+      },
+      {
+        "reference": "e6cde67e-a720-47dd-8bb1-82877165efd5",
+        "email": "Deshawn_Orn@roq.tech",
+        "firstName": "Lea",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75899695",
+        "tenantId": null
+      },
+      {
+        "reference": "e9c48232-2cd2-4f93-b004-b0229eb6090d",
+        "email": "Effie13@roq.tech",
+        "firstName": "Prince",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10728324",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "9813c803-e2d9-4818-a8bd-6952f94fd1e0",
+        "hire_date": "2023-09-25T17:10:15.872Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Admin",
+        "created_at": "2023-09-26T03:24:19.433Z",
+        "updated_at": "2023-09-26T01:24:10.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acefb379-aae8-42ba-b747-60fc84470d7e",
+        "hire_date": "2023-09-26T00:41:05.830Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Super Admin",
+        "created_at": "2023-09-26T02:36:19.919Z",
+        "updated_at": "2023-09-26T05:18:28.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "718d9c5f-df49-4003-ac4a-757d30b011fc",
+        "hire_date": "2023-09-26T02:02:33.742Z",
+        "department": "HR",
+        "position": "Database Administrator",
+        "access_level": "Root Admin",
+        "created_at": "2023-09-25T17:04:27.448Z",
+        "updated_at": "2023-09-26T01:16:35.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ba84736-bde1-4b14-a125-8d5fb69dd74a",
+        "hire_date": "2023-09-26T03:50:30.915Z",
+        "department": "Finance",
+        "position": "Security Administrator",
+        "access_level": "System Admin",
+        "created_at": "2023-09-26T07:05:28.376Z",
+        "updated_at": "2023-09-26T16:40:07.558Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84909448-e206-45a2-8705-6f113a6db9e9",
+        "hire_date": "2023-09-26T08:00:15.941Z",
+        "department": "Legal",
+        "position": "Infrastructure Administrator",
+        "access_level": "Network Admin",
+        "created_at": "2023-09-25T22:28:38.428Z",
+        "updated_at": "2023-09-26T12:47:53.485Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "11f70edb-e824-4b13-8d25-8e58efd6a93e",
+        "salary": 58251,
+        "bonus": 17185,
+        "deductions": 41004,
+        "net_pay": 17527,
+        "pay_date": "2023-09-26T03:16:06.041Z",
+        "created_at": "2023-09-26T09:51:45.135Z",
+        "updated_at": "2023-09-25T22:29:11.874Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8011d384-3786-43dd-bf73-7c53972d03d1",
+        "salary": 35937,
+        "bonus": 20753,
+        "deductions": 93812,
+        "net_pay": 21770,
+        "pay_date": "2023-09-26T14:09:58.728Z",
+        "created_at": "2023-09-26T11:41:36.034Z",
+        "updated_at": "2023-09-26T06:39:28.600Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7744e07e-b198-4ba0-bd63-9b91d89da3b1",
+        "salary": 48944,
+        "bonus": 11773,
+        "deductions": 78412,
+        "net_pay": 78916,
+        "pay_date": "2023-09-26T11:13:41.344Z",
+        "created_at": "2023-09-26T01:36:36.628Z",
+        "updated_at": "2023-09-26T01:11:34.937Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf2c46a7-41f9-4070-ab48-7ebf34b3737c",
+        "salary": 31770,
+        "bonus": 62101,
+        "deductions": 28902,
+        "net_pay": 52172,
+        "pay_date": "2023-09-26T04:15:12.730Z",
+        "created_at": "2023-09-26T01:31:17.358Z",
+        "updated_at": "2023-09-26T05:30:17.153Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff413b1e-79b1-48a0-9dcc-340d99be642c",
+        "salary": 23450,
+        "bonus": 49091,
+        "deductions": 66809,
+        "net_pay": 15590,
+        "pay_date": "2023-09-26T04:27:28.974Z",
+        "created_at": "2023-09-26T09:32:35.159Z",
+        "updated_at": "2023-09-25T19:17:23.248Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "2f1098c7-40da-4045-b3c7-24b63c36906c",
+        "hire_date": "2023-09-26T08:41:52.491Z",
+        "department": "HR",
+        "position": "HR Manager",
+        "supervisor": "John Doe",
+        "created_at": "2023-09-26T06:19:37.499Z",
+        "updated_at": "2023-09-26T14:01:45.105Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9384b50a-7820-4d36-9475-921fca87e0ae",
+        "hire_date": "2023-09-25T23:44:15.626Z",
+        "department": "Operations",
+        "position": "Operations Manager",
+        "supervisor": "Jane Smith",
+        "created_at": "2023-09-26T15:54:04.432Z",
+        "updated_at": "2023-09-26T14:40:49.718Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bde88802-a580-4a98-9269-49acd98e5589",
+        "hire_date": "2023-09-25T23:04:25.952Z",
+        "department": "Finance",
+        "position": "Finance Manager",
+        "supervisor": "Michael Johnson",
+        "created_at": "2023-09-26T03:12:43.995Z",
+        "updated_at": "2023-09-25T17:40:06.190Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f33a1bb-6352-459e-b01b-f4d2f6bd40dc",
+        "hire_date": "2023-09-26T00:47:13.910Z",
+        "department": "Legal",
+        "position": "Legal Manager",
+        "supervisor": "Sarah Wilson",
+        "created_at": "2023-09-25T21:41:02.022Z",
+        "updated_at": "2023-09-26T00:41:54.832Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cda5ca8-ac57-4eb0-aeba-2b87605e17ff",
+        "hire_date": "2023-09-26T04:12:49.757Z",
+        "department": "IT",
+        "position": "IT Manager",
+        "supervisor": "Robert Brown",
+        "created_at": "2023-09-26T04:27:16.672Z",
+        "updated_at": "2023-09-26T01:03:47.160Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "b5ae16a2-6273-43c9-81ef-7501cef320ff",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-09-25T23:04:43.406Z",
+        "end_date": "2023-09-26T13:52:00.523Z",
+        "created_at": "2023-09-25T23:36:00.055Z",
+        "updated_at": "2023-09-26T13:39:35.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7d5fa87-bd9c-4493-a633-4a90beef97db",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-09-26T12:53:49.717Z",
+        "end_date": "2023-09-26T04:22:17.632Z",
+        "created_at": "2023-09-26T16:44:02.416Z",
+        "updated_at": "2023-09-25T19:56:47.126Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "370886e0-4638-46d3-801a-835068610d3c",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "start_date": "2023-09-26T03:09:29.317Z",
+        "end_date": "2023-09-26T07:38:19.474Z",
+        "created_at": "2023-09-26T15:34:17.162Z",
+        "updated_at": "2023-09-26T01:12:38.158Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f7dbdc4-a767-4388-9446-71454f400f7e",
+        "address": "321 Pine St",
+        "phone_number": "888-555-1234",
+        "start_date": "2023-09-26T11:24:10.678Z",
+        "end_date": "2023-09-26T02:32:15.319Z",
+        "created_at": "2023-09-26T00:36:41.129Z",
+        "updated_at": "2023-09-25T20:44:52.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb0882d8-82b0-4457-b6ee-0b259d126c25",
+        "address": "654 Maple St",
+        "phone_number": "999-888-7777",
+        "start_date": "2023-09-26T03:38:57.249Z",
+        "end_date": "2023-09-25T18:03:18.542Z",
+        "created_at": "2023-09-26T03:39:08.368Z",
+        "updated_at": "2023-09-25T19:24:56.532Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1b3ab636-d7e3-4f83-be6d-0bbc78e4f8fe",
+        "email": "Cordell_Olson48@roq.tech",
+        "firstName": "Romaine",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34807006",
+        "tenantId": null
+      },
+      {
+        "reference": "e163f228-3d47-4780-bb30-79e963fc02ca",
+        "email": "Fae_Balistreri45@roq.tech",
+        "firstName": "Columbus",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86559096",
+        "tenantId": null
+      },
+      {
+        "reference": "83996baa-72f8-41d9-a968-35baf73086b0",
+        "email": "Robert.Dibbert@roq.tech",
+        "firstName": "Malika",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66e29c32-c7c2-4661-bda6-2d61e25e67f1",
+        "email": "Jenifer.Corkery@roq.tech",
+        "firstName": "Isabella",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/140.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5cb40784-8354-4792-8184-7cb90a5d7c98",
+        "email": "Bertrand.Lynch56@roq.tech",
+        "firstName": "Adela",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90173634",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "1aa55d6b-35db-42b2-9215-5100f9a9000b",
+        "hire_date": "2023-09-25T23:25:38.118Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Admin",
+        "created_at": "2023-09-26T14:50:44.452Z",
+        "updated_at": "2023-09-26T15:02:15.344Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd54823a-0519-4724-a9d2-d536443b0426",
+        "hire_date": "2023-09-26T12:15:06.927Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Super Admin",
+        "created_at": "2023-09-26T04:17:27.584Z",
+        "updated_at": "2023-09-26T09:25:02.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1f1cd8f-5b1d-4bdf-a4cf-7418897918e2",
+        "hire_date": "2023-09-26T16:16:17.667Z",
+        "department": "Finance",
+        "position": "Database Administrator",
+        "access_level": "Root Admin",
+        "created_at": "2023-09-25T21:08:39.092Z",
+        "updated_at": "2023-09-26T16:28:58.932Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3132741c-8174-41cc-ab67-0fed3550b5a5",
+        "hire_date": "2023-09-26T00:09:49.465Z",
+        "department": "HR",
+        "position": "Security Administrator",
+        "access_level": "System Admin",
+        "created_at": "2023-09-26T11:52:51.581Z",
+        "updated_at": "2023-09-26T05:23:00.457Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83c2985c-631a-41db-903c-80e5d4fc0eb0",
+        "hire_date": "2023-09-26T03:10:09.227Z",
+        "department": "Marketing",
+        "position": "Infrastructure Administrator",
+        "access_level": "Network Admin",
+        "created_at": "2023-09-25T22:56:17.099Z",
+        "updated_at": "2023-09-26T15:08:46.566Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "50709327-6e46-4019-8181-4a69145cba6a",
+        "salary": 89982,
+        "bonus": 32846,
+        "deductions": 67102,
+        "net_pay": 73073,
+        "pay_date": "2023-09-26T13:04:59.747Z",
+        "created_at": "2023-09-26T04:28:26.463Z",
+        "updated_at": "2023-09-26T14:54:49.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31a0db40-0ab2-4fd9-86de-59c8b68e15c2",
+        "salary": 29841,
+        "bonus": 84262,
+        "deductions": 85390,
+        "net_pay": 45244,
+        "pay_date": "2023-09-26T06:28:39.177Z",
+        "created_at": "2023-09-25T17:05:40.824Z",
+        "updated_at": "2023-09-26T01:00:29.746Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e35466be-76e3-4539-80e2-02c41ca08e61",
+        "salary": 24050,
+        "bonus": 52221,
+        "deductions": 46206,
+        "net_pay": 8187,
+        "pay_date": "2023-09-25T18:11:24.512Z",
+        "created_at": "2023-09-26T08:32:48.202Z",
+        "updated_at": "2023-09-26T16:56:18.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "440fb107-5f0b-46f2-8612-9312b0784d9d",
+        "salary": 44671,
+        "bonus": 39667,
+        "deductions": 73061,
+        "net_pay": 10949,
+        "pay_date": "2023-09-26T08:11:50.099Z",
+        "created_at": "2023-09-26T02:00:54.196Z",
+        "updated_at": "2023-09-26T05:43:02.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac1dba03-5c0a-4c8f-a49e-145ded447100",
+        "salary": 3801,
+        "bonus": 13580,
+        "deductions": 79950,
+        "net_pay": 19152,
+        "pay_date": "2023-09-25T22:37:22.507Z",
+        "created_at": "2023-09-26T13:49:08.612Z",
+        "updated_at": "2023-09-26T02:15:41.043Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "b3b6e17a-c1ac-4393-ad91-4eb9e72fcbe7",
+        "hire_date": "2023-09-26T11:21:22.489Z",
+        "department": "HR",
+        "position": "HR Manager",
+        "supervisor": "Operations Manager",
+        "created_at": "2023-09-26T15:28:44.112Z",
+        "updated_at": "2023-09-26T03:11:00.448Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d495334-13f3-4465-a07c-00657b0d0a9b",
+        "hire_date": "2023-09-25T17:48:03.398Z",
+        "department": "Operations",
+        "position": "Senior HR Manager",
+        "supervisor": "Finance Manager",
+        "created_at": "2023-09-25T17:40:54.699Z",
+        "updated_at": "2023-09-26T07:47:50.780Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00506a3f-cc99-4aba-9514-11551360cb30",
+        "hire_date": "2023-09-26T06:14:06.462Z",
+        "department": "Finance",
+        "position": "HR Director",
+        "supervisor": "Marketing Manager",
+        "created_at": "2023-09-26T03:26:39.296Z",
+        "updated_at": "2023-09-26T00:28:05.897Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc3e1ad2-b091-40fc-b60d-70fd8c7e73e0",
+        "hire_date": "2023-09-26T16:22:45.223Z",
+        "department": "Marketing",
+        "position": "HR Business Partner",
+        "supervisor": "Sales Manager",
+        "created_at": "2023-09-26T02:01:57.681Z",
+        "updated_at": "2023-09-26T00:22:52.236Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e14c7cc8-8d99-47d3-98b4-94b3f178e62c",
+        "hire_date": "2023-09-25T18:28:28.977Z",
+        "department": "Sales",
+        "position": "HR Consultant",
+        "supervisor": "CEO",
+        "created_at": "2023-09-26T14:15:50.768Z",
+        "updated_at": "2023-09-26T07:03:43.504Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "36a4b19f-f5ef-4ad5-bb3d-2d13292c4223",
+        "address": "123 Main St",
+        "phone_number": "555-1234",
+        "start_date": "2023-09-26T13:45:47.035Z",
+        "end_date": "2023-09-26T15:40:27.761Z",
+        "created_at": "2023-09-25T17:55:17.046Z",
+        "updated_at": "2023-09-26T10:54:14.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "281dafba-630b-41ce-a631-0b1d705fa43f",
+        "address": "456 Elm St",
+        "phone_number": "555-5678",
+        "start_date": "2023-09-25T18:07:11.542Z",
+        "end_date": "2023-09-25T19:37:13.044Z",
+        "created_at": "2023-09-26T11:20:57.036Z",
+        "updated_at": "2023-09-25T20:16:53.277Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2328b81-ea02-4c27-bb2a-94022ebe110d",
+        "address": "789 Oak St",
+        "phone_number": "555-9012",
+        "start_date": "2023-09-26T09:59:52.726Z",
+        "end_date": "2023-09-25T20:55:41.970Z",
+        "created_at": "2023-09-26T14:48:51.966Z",
+        "updated_at": "2023-09-26T01:43:53.696Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e863d23-4481-4569-bea6-17e0d9d10b2f",
+        "address": "321 Pine St",
+        "phone_number": "555-3456",
+        "start_date": "2023-09-25T17:15:32.336Z",
+        "end_date": "2023-09-26T14:01:22.698Z",
+        "created_at": "2023-09-26T10:21:05.445Z",
+        "updated_at": "2023-09-26T02:29:24.894Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02b98071-6a3d-41fa-9290-6db795e038ea",
+        "address": "654 Maple St",
+        "phone_number": "555-7890",
+        "start_date": "2023-09-26T01:25:24.767Z",
+        "end_date": "2023-09-26T14:10:46.815Z",
+        "created_at": "2023-09-25T20:37:56.428Z",
+        "updated_at": "2023-09-25T22:57:39.481Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5ffdaef9-0931-4646-a7e1-eaa67a9e4138",
+        "email": "Jonathan92@roq.tech",
+        "firstName": "Trevor",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa5dcdba-db02-44ba-ba37-0dbe85788750",
+        "email": "Megane12@roq.tech",
+        "firstName": "Heloise",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/496.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d23055f2-fd7f-4e4c-a4ec-d46f02a3831c",
+        "email": "Al.Halvorson7@roq.tech",
+        "firstName": "Abigail",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92666509",
+        "tenantId": null
+      },
+      {
+        "reference": "f79071f5-c562-4109-90e7-0edaa5b121f7",
+        "email": "Zackery_Stanton38@roq.tech",
+        "firstName": "Samara",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82991773",
+        "tenantId": null
+      },
+      {
+        "reference": "79e540e9-fe47-4498-aa5f-d6abc1e446bb",
+        "email": "Daryl43@roq.tech",
+        "firstName": "Katlyn",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13500859",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "628036b1-edb5-4799-a1c0-4173e1fd9937",
+        "hire_date": "2023-09-25T18:16:24.242Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Admin",
+        "created_at": "2023-09-25T20:39:29.799Z",
+        "updated_at": "2023-09-26T15:43:01.768Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b5a94ac-016b-4010-a97f-6328b5bc484e",
+        "hire_date": "2023-09-25T18:46:01.484Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Super Admin",
+        "created_at": "2023-09-25T18:49:50.545Z",
+        "updated_at": "2023-09-26T04:58:21.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46f5b3cd-fb4c-4631-a4f6-64dbb0732043",
+        "hire_date": "2023-09-26T11:55:39.481Z",
+        "department": "Human Resources",
+        "position": "Database Administrator",
+        "access_level": "Root Admin",
+        "created_at": "2023-09-26T08:49:39.861Z",
+        "updated_at": "2023-09-26T13:33:33.875Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14bdce37-f60a-47eb-80c9-931d1782ed52",
+        "hire_date": "2023-09-26T01:27:41.045Z",
+        "department": "Finance",
+        "position": "Security Administrator",
+        "access_level": "System Admin",
+        "created_at": "2023-09-26T12:29:44.565Z",
+        "updated_at": "2023-09-26T05:54:50.305Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ec147dc-c180-47d3-aacb-5273f983c990",
+        "hire_date": "2023-09-26T08:58:48.513Z",
+        "department": "Marketing",
+        "position": "Infrastructure Administrator",
+        "access_level": "Network Admin",
+        "created_at": "2023-09-26T13:59:47.207Z",
+        "updated_at": "2023-09-26T15:57:32.531Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "036b0a6b-3d30-4344-9d4e-dfc7be0f1e97",
+        "salary": 85069,
+        "bonus": 18902,
+        "deductions": 84513,
+        "net_pay": 6330,
+        "pay_date": "2023-09-26T01:10:14.567Z",
+        "created_at": "2023-09-26T10:34:05.177Z",
+        "updated_at": "2023-09-26T02:49:37.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93a52b01-8b43-4379-819b-e1a4e1cdfc94",
+        "salary": 66339,
+        "bonus": 78292,
+        "deductions": 15430,
+        "net_pay": 75036,
+        "pay_date": "2023-09-26T00:23:52.342Z",
+        "created_at": "2023-09-26T01:42:43.508Z",
+        "updated_at": "2023-09-25T23:57:07.655Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "082f74ff-7193-4bc8-ba6c-96463a9bb42d",
+        "salary": 81393,
+        "bonus": 24138,
+        "deductions": 66942,
+        "net_pay": 26216,
+        "pay_date": "2023-09-26T04:55:03.557Z",
+        "created_at": "2023-09-26T08:01:55.093Z",
+        "updated_at": "2023-09-25T20:54:20.677Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3e6d78b-3aaf-493d-9e03-787b7859e67b",
+        "salary": 45125,
+        "bonus": 26724,
+        "deductions": 70042,
+        "net_pay": 50890,
+        "pay_date": "2023-09-26T01:11:27.850Z",
+        "created_at": "2023-09-26T07:55:01.965Z",
+        "updated_at": "2023-09-26T02:18:28.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "803bed9a-8f0a-4f5f-bed8-0fd0e5096918",
+        "salary": 2801,
+        "bonus": 29388,
+        "deductions": 86259,
+        "net_pay": 27999,
+        "pay_date": "2023-09-26T01:46:36.458Z",
+        "created_at": "2023-09-26T12:39:35.743Z",
+        "updated_at": "2023-09-25T23:52:53.757Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "f4576ae3-aaa3-4696-a039-78556987822c",
+        "hire_date": "2023-09-26T03:36:09.939Z",
+        "department": "Human Resources",
+        "position": "HR Manager",
+        "supervisor": "John Smith",
+        "created_at": "2023-09-26T16:37:30.729Z",
+        "updated_at": "2023-09-26T07:22:11.978Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02c169bb-13e9-49fb-a384-a1eb48e3bf6d",
+        "hire_date": "2023-09-25T21:24:12.562Z",
+        "department": "Operations",
+        "position": "Operations Manager",
+        "supervisor": "Jane Doe",
+        "created_at": "2023-09-25T19:50:37.824Z",
+        "updated_at": "2023-09-26T16:06:49.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47867fc1-9f06-4c7f-9034-996cd399c19e",
+        "hire_date": "2023-09-26T02:46:38.891Z",
+        "department": "Finance",
+        "position": "Finance Manager",
+        "supervisor": "Michael Brown",
+        "created_at": "2023-09-25T19:34:09.198Z",
+        "updated_at": "2023-09-25T17:55:14.080Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbf70c95-f169-4377-aef7-80b2c2bcd267",
+        "hire_date": "2023-09-25T21:51:35.296Z",
+        "department": "Marketing",
+        "position": "Marketing Manager",
+        "supervisor": "Emily Johnson",
+        "created_at": "2023-09-26T04:56:02.406Z",
+        "updated_at": "2023-09-26T00:25:05.639Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6169dce-c637-4844-829b-95146c5a3bfe",
+        "hire_date": "2023-09-26T16:26:05.741Z",
+        "department": "IT",
+        "position": "IT Manager",
+        "supervisor": "David Wilson",
+        "created_at": "2023-09-26T10:36:36.626Z",
+        "updated_at": "2023-09-26T00:13:19.516Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "b1d1c502-5079-47c8-b790-2358c88d1d33",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-09-26T06:10:06.946Z",
+        "end_date": "2023-09-26T07:41:53.554Z",
+        "created_at": "2023-09-26T13:15:39.384Z",
+        "updated_at": "2023-09-26T00:58:07.573Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94fdd262-8092-4235-bd9c-d56777781c6a",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-09-26T01:12:11.067Z",
+        "end_date": "2023-09-26T08:43:33.203Z",
+        "created_at": "2023-09-26T10:29:48.114Z",
+        "updated_at": "2023-09-25T20:59:35.851Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0f1bf57-15d7-4dba-a45a-fad5b9a93218",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "start_date": "2023-09-26T05:43:50.280Z",
+        "end_date": "2023-09-26T16:54:48.437Z",
+        "created_at": "2023-09-26T12:39:37.177Z",
+        "updated_at": "2023-09-26T03:07:52.826Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43e41cb6-c8e9-48c7-9c46-2b5dc1ebfe29",
+        "address": "321 Pine St",
+        "phone_number": "888-555-1234",
+        "start_date": "2023-09-26T13:02:37.646Z",
+        "end_date": "2023-09-25T19:37:27.028Z",
+        "created_at": "2023-09-26T13:33:07.982Z",
+        "updated_at": "2023-09-25T20:10:52.416Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b8b0e36-a3e4-4ee2-81ee-cf0e26a8c142",
+        "address": "654 Maple St",
+        "phone_number": "777-888-9999",
+        "start_date": "2023-09-26T11:40:05.834Z",
+        "end_date": "2023-09-26T14:12:23.649Z",
+        "created_at": "2023-09-26T13:24:00.295Z",
+        "updated_at": "2023-09-26T13:41:45.974Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0f93842e-9284-4e24-92aa-1db9f655a860",
+        "email": "Joel_Hermann@roq.tech",
+        "firstName": "Delta",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "999bf9b0-39ff-47fb-902c-579cc5222b07",
+        "email": "Nick30@roq.tech",
+        "firstName": "Percival",
+        "lastName": "O'Hara-Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57252054",
+        "tenantId": null
+      },
+      {
+        "reference": "c31b36fb-1584-4abe-a564-2b7c820ea2f8",
+        "email": "Keegan39@roq.tech",
+        "firstName": "Iliana",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/81.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63bcef94-fe81-4284-8842-8aa199736157",
+        "email": "Myles.Lang@roq.tech",
+        "firstName": "Enos",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91905818",
+        "tenantId": null
+      },
+      {
+        "reference": "46174402-5b7b-4cbb-9fd2-af2940a6817c",
+        "email": "Maximillian77@roq.tech",
+        "firstName": "Dominique",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89507102",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "de1c415f-c763-49b2-bf4e-005848df1f6b",
+        "hire_date": "2023-09-26T11:41:26.031Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Full Access",
+        "created_at": "2023-09-26T07:24:08.900Z",
+        "updated_at": "2023-09-26T12:48:57.329Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebac5f98-520c-4f13-9d3c-74779cd6ecc3",
+        "hire_date": "2023-09-25T21:50:34.537Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Limited Access",
+        "created_at": "2023-09-26T09:36:02.137Z",
+        "updated_at": "2023-09-25T17:23:46.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38e60013-ad7f-4f3e-9236-06d1be1ea83c",
+        "hire_date": "2023-09-26T02:59:17.194Z",
+        "department": "Finance",
+        "position": "Database Administrator",
+        "access_level": "Read-Only Access",
+        "created_at": "2023-09-26T09:03:14.828Z",
+        "updated_at": "2023-09-26T13:32:31.739Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9329f50-8c16-4f04-b594-1589417438f0",
+        "hire_date": "2023-09-26T04:01:15.450Z",
+        "department": "Human Resources",
+        "position": "Security Administrator",
+        "access_level": "Admin Access",
+        "created_at": "2023-09-26T04:23:21.064Z",
+        "updated_at": "2023-09-26T07:10:02.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d703f52b-0183-4d84-8a76-bd1cabad7399",
+        "hire_date": "2023-09-26T05:21:26.619Z",
+        "department": "Marketing",
+        "position": "Infrastructure Administrator",
+        "access_level": "Superuser Access",
+        "created_at": "2023-09-25T21:07:35.421Z",
+        "updated_at": "2023-09-26T03:36:45.675Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "c070f4e8-7b3c-494b-abcb-a4e2a3832fcb",
+        "salary": 13749,
+        "bonus": 22034,
+        "deductions": 2666,
+        "net_pay": 90944,
+        "pay_date": "2023-09-25T21:15:23.213Z",
+        "created_at": "2023-09-25T22:37:43.895Z",
+        "updated_at": "2023-09-25T17:00:02.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74baa113-23eb-4c59-8825-1302ca36a9b3",
+        "salary": 74316,
+        "bonus": 51055,
+        "deductions": 26075,
+        "net_pay": 91695,
+        "pay_date": "2023-09-26T15:47:51.089Z",
+        "created_at": "2023-09-26T14:20:37.023Z",
+        "updated_at": "2023-09-25T20:37:17.838Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03dff468-b6a9-4b92-89bb-3005a5aa10ed",
+        "salary": 23715,
+        "bonus": 91856,
+        "deductions": 38020,
+        "net_pay": 41304,
+        "pay_date": "2023-09-26T06:12:21.704Z",
+        "created_at": "2023-09-26T03:57:59.530Z",
+        "updated_at": "2023-09-25T18:06:43.050Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "934a960a-0ed4-43b5-ade1-a2bedb2fa689",
+        "salary": 18479,
+        "bonus": 8968,
+        "deductions": 49781,
+        "net_pay": 52294,
+        "pay_date": "2023-09-26T04:38:56.709Z",
+        "created_at": "2023-09-26T02:23:40.118Z",
+        "updated_at": "2023-09-26T05:56:06.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c036d9cb-2792-42d3-ac57-7834af3de0c4",
+        "salary": 19889,
+        "bonus": 28437,
+        "deductions": 73178,
+        "net_pay": 90622,
+        "pay_date": "2023-09-26T09:46:18.977Z",
+        "created_at": "2023-09-26T11:50:03.411Z",
+        "updated_at": "2023-09-26T12:08:44.184Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "3d1dc20f-8ce0-4423-9918-f766e3cc3d6f",
+        "hire_date": "2023-09-26T10:27:12.366Z",
+        "department": "Human Resources",
+        "position": "HR Manager",
+        "supervisor": "John Doe",
+        "created_at": "2023-09-25T19:22:43.879Z",
+        "updated_at": "2023-09-26T09:35:47.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f15973ea-2206-4ecc-bfa4-53bce6fe2614",
+        "hire_date": "2023-09-26T01:20:40.721Z",
+        "department": "Operations",
+        "position": "HR Business Partner",
+        "supervisor": "Jane Smith",
+        "created_at": "2023-09-26T12:50:31.249Z",
+        "updated_at": "2023-09-26T00:33:54.073Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e817840-cf00-4746-9ab3-dd95bea161bf",
+        "hire_date": "2023-09-26T08:01:26.736Z",
+        "department": "Finance",
+        "position": "HR Generalist",
+        "supervisor": "Michael Brown",
+        "created_at": "2023-09-26T02:58:50.364Z",
+        "updated_at": "2023-09-26T12:13:23.537Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "014284e5-4659-4597-9bb7-ce40acaeb5c4",
+        "hire_date": "2023-09-26T16:37:30.767Z",
+        "department": "IT",
+        "position": "HR Specialist",
+        "supervisor": "Sarah Jones",
+        "created_at": "2023-09-26T10:47:10.839Z",
+        "updated_at": "2023-09-25T17:18:14.998Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97dce817-e183-4bd4-aae3-f8943e4a54af",
+        "hire_date": "2023-09-26T05:24:59.437Z",
+        "department": "Marketing",
+        "position": "HR Coordinator",
+        "supervisor": "Robert Wilson",
+        "created_at": "2023-09-26T11:18:41.938Z",
+        "updated_at": "2023-09-26T08:28:38.739Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "1d22a833-a591-401f-9c84-829ec5b1e442",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-09-26T16:49:03.920Z",
+        "end_date": "2023-09-26T12:29:26.425Z",
+        "created_at": "2023-09-26T06:49:51.379Z",
+        "updated_at": "2023-09-26T09:35:41.741Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73dbee3d-49f2-41a7-a9d8-62f25a8dfefd",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-09-26T16:52:09.681Z",
+        "end_date": "2023-09-26T06:51:46.618Z",
+        "created_at": "2023-09-25T21:59:08.139Z",
+        "updated_at": "2023-09-26T09:28:00.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04d40565-5eb3-4de6-85db-2147686a02d9",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "start_date": "2023-09-25T22:12:24.012Z",
+        "end_date": "2023-09-26T09:18:06.279Z",
+        "created_at": "2023-09-25T22:26:57.612Z",
+        "updated_at": "2023-09-26T05:39:56.171Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a57349e1-7725-4a54-a8a7-6b4be66c71da",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "start_date": "2023-09-25T18:08:36.678Z",
+        "end_date": "2023-09-25T21:23:05.813Z",
+        "created_at": "2023-09-26T06:49:39.876Z",
+        "updated_at": "2023-09-26T10:26:29.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b06c309f-ce5e-499a-b0f8-fad2bc7fe108",
+        "address": "654 Maple St",
+        "phone_number": "111-222-3333",
+        "start_date": "2023-09-25T23:21:11.974Z",
+        "end_date": "2023-09-26T14:38:48.699Z",
+        "created_at": "2023-09-26T02:26:31.001Z",
+        "updated_at": "2023-09-26T16:37:08.549Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8b4615e4-db43-4e97-80d3-880319b7a6f3",
+        "email": "Brionna0@roq.tech",
+        "firstName": "Elvis",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85874863",
+        "tenantId": null
+      },
+      {
+        "reference": "9522e07c-ba0f-4846-8d32-8cf92bd3cff4",
+        "email": "Sabrina.Jast1@roq.tech",
+        "firstName": "Dashawn",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70954191",
+        "tenantId": null
+      },
+      {
+        "reference": "09350eed-1b47-41f5-8526-2e369ff40b78",
+        "email": "Beau_Hane97@roq.tech",
+        "firstName": "Coy",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1714140",
+        "tenantId": null
+      },
+      {
+        "reference": "92137eac-43ae-4b6b-afc2-cc93363e6693",
+        "email": "Patience_Franecki51@roq.tech",
+        "firstName": "Susan",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76045033",
+        "tenantId": null
+      },
+      {
+        "reference": "f223a1fe-19cb-461e-b9a5-5cc4f84cb670",
+        "email": "Dejon50@roq.tech",
+        "firstName": "Clementine",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/771.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "system_administrator": [
+      {
+        "id": "6960a4ef-1e39-460d-89b3-488a0404cfd6",
+        "hire_date": "2023-09-26T13:31:15.234Z",
+        "department": "IT",
+        "position": "System Administrator",
+        "access_level": "Admin",
+        "created_at": "2023-09-25T23:56:06.029Z",
+        "updated_at": "2023-09-25T18:06:27.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e6fb7dc-9f43-4093-944e-fddc35d44495",
+        "hire_date": "2023-09-26T12:04:40.547Z",
+        "department": "Operations",
+        "position": "Network Administrator",
+        "access_level": "Superuser",
+        "created_at": "2023-09-26T10:53:46.267Z",
+        "updated_at": "2023-09-26T04:30:54.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "968c5b8f-3581-4124-a474-abfbb7c2144f",
+        "hire_date": "2023-09-26T09:36:21.206Z",
+        "department": "Finance",
+        "position": "Database Administrator",
+        "access_level": "Manager",
+        "created_at": "2023-09-25T19:21:28.833Z",
+        "updated_at": "2023-09-26T01:31:43.838Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8697836-a64d-4c21-b427-abd556b233dc",
+        "hire_date": "2023-09-26T16:24:50.746Z",
+        "department": "HR",
+        "position": "IT Manager",
+        "access_level": "Analyst",
+        "created_at": "2023-09-26T02:38:57.558Z",
+        "updated_at": "2023-09-25T17:45:07.315Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d21d8b7-e215-4464-afe5-824a65adae83",
+        "hire_date": "2023-09-26T09:01:06.981Z",
+        "department": "Marketing",
+        "position": "IT Specialist",
+        "access_level": "Support",
+        "created_at": "2023-09-26T01:27:30.109Z",
+        "updated_at": "2023-09-26T15:07:05.714Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "71ab8711-ede3-4111-b8c2-ad8ab472b7e6",
+        "salary": 50446,
+        "bonus": 14961,
+        "deductions": 1419,
+        "net_pay": 69772,
+        "pay_date": "2023-09-25T22:03:21.103Z",
+        "created_at": "2023-09-26T01:56:59.462Z",
+        "updated_at": "2023-09-26T11:21:30.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c1f0e1e-2ec5-4435-85ce-b1574853d406",
+        "salary": 77499,
+        "bonus": 77979,
+        "deductions": 35548,
+        "net_pay": 27737,
+        "pay_date": "2023-09-26T08:23:10.527Z",
+        "created_at": "2023-09-26T08:11:56.227Z",
+        "updated_at": "2023-09-26T16:19:17.465Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2720d181-b9fe-42cf-954e-d301d3e2be06",
+        "salary": 39591,
+        "bonus": 14011,
+        "deductions": 55744,
+        "net_pay": 69016,
+        "pay_date": "2023-09-26T09:21:06.395Z",
+        "created_at": "2023-09-25T22:05:20.341Z",
+        "updated_at": "2023-09-26T01:50:56.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7f75aa1-0163-4cab-926f-317467e7d276",
+        "salary": 56525,
+        "bonus": 50919,
+        "deductions": 88167,
+        "net_pay": 76565,
+        "pay_date": "2023-09-25T19:09:31.930Z",
+        "created_at": "2023-09-26T08:47:01.481Z",
+        "updated_at": "2023-09-26T13:00:41.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bff58c16-e374-4349-85e5-fb7d9d82e9cc",
+        "salary": 21200,
+        "bonus": 61074,
+        "deductions": 11158,
+        "net_pay": 60171,
+        "pay_date": "2023-09-25T18:04:37.625Z",
+        "created_at": "2023-09-26T13:30:35.373Z",
+        "updated_at": "2023-09-26T11:10:02.145Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "hr_manager": [
+      {
+        "id": "1542aa92-d3c8-4953-8c3d-faea325b0a5e",
+        "hire_date": "2023-09-26T15:26:55.738Z",
+        "department": "HR",
+        "position": "HR Manager",
+        "supervisor": "CEO",
+        "created_at": "2023-09-25T19:51:28.625Z",
+        "updated_at": "2023-09-26T10:21:10.301Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fa42b30-88c3-40a1-a700-cb9c4633c6a6",
+        "hire_date": "2023-09-26T10:13:02.739Z",
+        "department": "Operations",
+        "position": "Recruitment Manager",
+        "supervisor": "COO",
+        "created_at": "2023-09-25T21:14:59.823Z",
+        "updated_at": "2023-09-25T23:19:33.598Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deee68c0-4e71-4f7a-a761-797e41354ccf",
+        "hire_date": "2023-09-26T00:36:38.021Z",
+        "department": "Finance",
+        "position": "Compensation Manager",
+        "supervisor": "CFO",
+        "created_at": "2023-09-25T19:00:41.420Z",
+        "updated_at": "2023-09-26T11:13:20.896Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a94f113d-4f89-440b-aa31-ceb5ea40ea29",
+        "hire_date": "2023-09-26T11:01:09.724Z",
+        "department": "Marketing",
+        "position": "Training Manager",
+        "supervisor": "CTO",
+        "created_at": "2023-09-26T03:01:14.146Z",
+        "updated_at": "2023-09-26T07:11:00.525Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "549606b9-da23-48b9-8fc1-101969683ea2",
+        "hire_date": "2023-09-26T16:19:00.505Z",
+        "department": "IT",
+        "position": "Employee Relations Manager",
+        "supervisor": "CMO",
+        "created_at": "2023-09-26T06:33:36.952Z",
+        "updated_at": "2023-09-26T07:54:39.575Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "fcac3235-022d-457d-b9a5-4e4dae7c5cf1",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "start_date": "2023-09-26T06:18:31.081Z",
+        "end_date": "2023-09-25T23:42:30.986Z",
+        "created_at": "2023-09-26T12:33:14.621Z",
+        "updated_at": "2023-09-25T21:48:21.893Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2739152f-2355-4cae-a837-95dc9a334f06",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "start_date": "2023-09-26T14:32:56.856Z",
+        "end_date": "2023-09-25T21:36:51.055Z",
+        "created_at": "2023-09-25T19:05:13.891Z",
+        "updated_at": "2023-09-26T05:19:07.551Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46d17004-6576-4e6a-b541-562cf30dd00a",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "start_date": "2023-09-26T13:05:59.981Z",
+        "end_date": "2023-09-26T16:01:49.123Z",
+        "created_at": "2023-09-26T10:59:30.700Z",
+        "updated_at": "2023-09-26T04:23:54.862Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8380466a-b4b0-4c6c-84d6-d28936e549c3",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "start_date": "2023-09-25T22:03:46.234Z",
+        "end_date": "2023-09-26T15:46:43.875Z",
+        "created_at": "2023-09-26T03:37:48.462Z",
+        "updated_at": "2023-09-26T04:57:25.077Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fd42595-0e7d-4d70-b02d-06fdba6aeebd",
+        "address": "654 Maple St",
+        "phone_number": "444-333-2222",
+        "start_date": "2023-09-25T20:16:38.740Z",
+        "end_date": "2023-09-26T11:04:13.281Z",
+        "created_at": "2023-09-26T14:17:50.422Z",
+        "updated_at": "2023-09-26T07:06:28.783Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "597cca74-dc7f-42b5-bebe-cd41a0ca793f",
+        "email": "Jeremy.Thompson@roq.tech",
+        "firstName": "Javier",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33521749",
+        "tenantId": null
+      },
+      {
+        "reference": "9ccbc00b-514a-4c4e-aeaf-ce67edc1e479",
+        "email": "Earnestine.Towne79@roq.tech",
+        "firstName": "Rosanna",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76613485",
+        "tenantId": null
+      },
+      {
+        "reference": "6741ab93-245a-4bf0-bfaa-90d9ad0aa7f5",
+        "email": "Agustin_Harris13@roq.tech",
+        "firstName": "Augusta",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40546538",
+        "tenantId": null
+      },
+      {
+        "reference": "bc3abd7b-f2ff-4158-ab69-f04e63ccb4b0",
+        "email": "Candida_Cronin@roq.tech",
+        "firstName": "Derick",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82033158",
+        "tenantId": null
+      },
+      {
+        "reference": "9656991b-e7be-49a7-8e6e-c0319eccbf7e",
+        "email": "Enos.Hirthe37@roq.tech",
+        "firstName": "Hiram",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/954.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
